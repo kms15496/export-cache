@@ -1,0 +1,22 @@
+
+{
+  "name": "kms/laravel-report-cache",
+  "description": "Reusable Excel report caching with Media Library",
+  "autoload": {
+    "psr-4": {
+      "Kms\\ReportCache\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Kms\\ReportCache\\ReportCacheServiceProvider"
+      ]
+    }
+  },
+  "require": {
+    "php": "^8.1",
+    "spatie/laravel-medialibrary": "^11.0",
+    "maatwebsite/excel": "^3.1"
+  }
+}
