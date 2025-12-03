@@ -1,4 +1,3 @@
-
 <?php
 
 namespace Kms\ReportCache\Jobs;
