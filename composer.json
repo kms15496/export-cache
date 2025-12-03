@@ -1,6 +1,6 @@
 
 {
-  "name": "kms/laravel-report-cache",
+  "name": "kms15496/laravel-report-cache",
   "description": "Reusable Excel report caching with Media Library",
   "autoload": {
     "psr-4": {
